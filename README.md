@@ -20,16 +20,21 @@ o	Then if the user chooses either Electric or Accoustic, the program will ask th
 5.	Includes Amp?, which must be ‘Yes’ or ‘No’ (Case Insensitive).  
 6.	If the user chose Accoustic, then:  
 7.	Is Hybrid?, which must be ‘Yes’ or ‘No’ (Case Insensitive).  
+
 o	If the user choose Cancel, then Return to main menu.  
 o	After successfully input all data, then calculate the price with the following formula:  
 **Total Price = Base Price + (150000 * Number of Strings) + (Extra Feature)**  
-|**Brand**|**Base Price**|
-|Yamaha|1500000|
-|Fender|2000000|
-|Cort|1000000|  
-|**Guitar Type**|**Extra Price**|**Price**|
-|Electric|WithAmp|1000000|
-|Accoustic|Is Hybrid|500000|  
+
+**Brand**|**Base Price**
+--- | ---
+Yamaha|1500000
+Fender|2000000
+Cort|1000000  
+
+**Guitar Type**|**Extra Price**|**Price**
+--- | ---
+Electric|WithAmp|1000000
+Accoustic|Is Hybrid|500000  
 o	You must create an abstract method ‘calculatePrice’ in the superclass and then each subclass must implements the method to override its formula.  
 o	After that, add the data to Array / Vector / ArrayList.  
 o	Finally, show the message "New guitar added!”.  
