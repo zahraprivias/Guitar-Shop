@@ -35,6 +35,7 @@ Cort|1000000
 --- | --- | ---
 Electric|WithAmp|1000000
 Accoustic|Is Hybrid|500000  
+
 o	You must create an abstract method ‘calculatePrice’ in the superclass and then each subclass must implements the method to override its formula.  
 o	After that, add the data to Array / Vector / ArrayList.  
 o	Finally, show the message "New guitar added!”.  
