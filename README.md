@@ -32,7 +32,7 @@ Fender|2000000
 Cort|1000000  
 
 **Guitar Type**|**Extra Price**|**Price**
---- | ---
+--- | --- | ---
 Electric|WithAmp|1000000
 Accoustic|Is Hybrid|500000  
 o	You must create an abstract method ‘calculatePrice’ in the superclass and then each subclass must implements the method to override its formula.  
