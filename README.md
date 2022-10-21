@@ -9,18 +9,18 @@ GuitarCenter is an old shop that sells guitars. Because the cost of printing a n
 2.	View Guitar Catalogue  
 3.	Delete Guitar  
 4.	Exit  
+
 •	If the user chooses menu 1 ‘Insert Guitar’, then:  
 o	Ask the user to choose between Accoustic, Electric, or Cancel  
 o	Then if the user chooses either Electric or Accoustic, the program will ask the user to input Guitar details, which consists of:  
->	Model, which length must be between 5 and 10 characters.  
->	Brand, which must be either ‘Yamaha’, ‘Fender’, or ‘Cort’ (Case sensitive). 
->	Number of Strings, which must be between 6 and 8  
->	If the user chose Electric, then:  
->	Includes Amp?, which must be ‘Yes’ or ‘No’ (Case Insensitive).  
->	If the user chose Accoustic, then:  
->	Is Hybrid?, which must be ‘Yes’ or ‘No’ (Case Insensitive).  
-o	If the user choose Cancel, then:  
->	Return to main menu.  
+1.	Model, which length must be between 5 and 10 characters.  
+2.	Brand, which must be either ‘Yamaha’, ‘Fender’, or ‘Cort’ (Case sensitive). 
+3.	Number of Strings, which must be between 6 and 8  
+4.	If the user chose Electric, then:  
+5.	Includes Amp?, which must be ‘Yes’ or ‘No’ (Case Insensitive).  
+6.	If the user chose Accoustic, then:  
+7.	Is Hybrid?, which must be ‘Yes’ or ‘No’ (Case Insensitive).  
+o	If the user choose Cancel, then Return to main menu.  
 o	After successfully input all data, then calculate the price with the following formula:  
 **Total Price = Base Price + (150000 * Number of Strings) + (Extra Feature)**  
 |**Brand**|**Base Price**|
