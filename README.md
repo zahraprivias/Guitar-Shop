@@ -40,6 +40,22 @@ o	You must create an abstract method ‘calculatePrice’ in the superclass and 
 o	After that, add the data to Array / Vector / ArrayList.  
 o	Finally, show the message "New guitar added!”.  
 
+•	If the user chooses menu 2 ‘View Guitar Catalogue’, then:  
+o	If the list is empty, then show the message “There is no data”.  
+o	Otherwise, Show all data in the list.  
+•	If the user chooses menu 3 ‘Delete Guitar’, then:  
+o	If the list is empty, then show the message “There is no data”.  
+o	Otherwise:  
+1. Show all data in the list.
+2. Ask the user to input guitar number, which must not be lower than 1 and not higher than total data. The number starts from 1 and will be added by 1 for each following data.
+3. After that, the program will delete the data according to the selected number.  
+
+•	If the user chooses menu 4 ‘Exit’, then the program will be closed.
+
+
+
+
+
 
 
 
