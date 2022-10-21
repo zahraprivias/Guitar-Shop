@@ -43,6 +43,7 @@ o	Finally, show the message "New guitar added!”.
 •	If the user chooses menu 2 ‘View Guitar Catalogue’, then:  
 o	If the list is empty, then show the message “There is no data”.  
 o	Otherwise, Show all data in the list.  
+
 •	If the user chooses menu 3 ‘Delete Guitar’, then:  
 o	If the list is empty, then show the message “There is no data”.  
 o	Otherwise:  
@@ -52,12 +53,7 @@ o	Otherwise:
 
 •	If the user chooses menu 4 ‘Exit’, then the program will be closed.
 
-
-
-
-
-
-
-
-
-
+Go to Main.java  
+Go to superclass Guitar.java  
+Go to subclass Electric.java  
+Go to subclass Accoustic.java  
