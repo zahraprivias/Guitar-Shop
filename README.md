@@ -53,7 +53,7 @@ o	Otherwise:
 
 •	If the user chooses menu 4 ‘Exit’, then the program will be closed.
 
-Go to Main.java  
-Go to superclass Guitar.java  
-Go to subclass Electric.java  
-Go to subclass Accoustic.java  
+[Go to Main.java](https://github.com/zahraprivias/Guitar-Shop/blob/main/src/Main.java)  
+[Go to superclass Guitar.java](https://github.com/zahraprivias/Guitar-Shop/blob/main/src/Guitar.java)  
+[Go to subclass Electric.java](https://github.com/zahraprivias/Guitar-Shop/blob/main/src/Electric.java)  
+[Go to subclass Accoustic.java](https://github.com/zahraprivias/Guitar-Shop/blob/main/src/Accoustic.java)  
