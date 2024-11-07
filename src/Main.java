@@ -35,13 +35,13 @@ public class Main {
 					brand = sc.nextLine();
 				} while (!brand.equals("Yamaha") && !brand.equals("Fender") && !brand.equals("Cort"));
 				
-				if (model.equals("Yamaha")) {
+				if (brand.equals("Yamaha")) {
 					baseprice = 1500000;
 				}
-				if (model.equals("Fender")) {
+				if (brand.equals("Fender")) {
 					baseprice = 2000000;
 				}
-				if (model.equals("Cort")) {
+				if (brand.equals("Cort")) {
 					baseprice = 1000000;
 				}
 				
@@ -73,7 +73,17 @@ public class Main {
 					System.out.println("Input brand [Yamaha|Fender|Cort][Case Sensitive]: ");
 					brand = sc.nextLine();
 				} while (!brand.equals("Yamaha") && !brand.equals("Fender") && !brand.equals("Cort"));
-				
+					
+				if (brand.equals("Yamaha")) {
+					baseprice = 1500000;
+				}
+				if (brand.equals("Fender")) {
+					baseprice = 2000000;
+				}
+				if (brand.equals("Cort")) {
+					baseprice = 1000000;
+				}
+					
 				do {
 					System.out.println("Input numberOfStrings [6-8]: ");
 					stringnum = sc.nextInt();
